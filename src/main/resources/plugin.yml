@@ -1,0 +1,11 @@
+name: ChatManager
+version: '${project.version}'
+main: com.lairon.plugin.chatmanager.ChatManager
+authors: [ Lairon1 ]
+description: Блокирует чат для новых пользователей
+website: https://vk.com/mysouliscry
+commands:
+  chatmanager:
+    permission: "*"
+    aliases:
+      - cm
